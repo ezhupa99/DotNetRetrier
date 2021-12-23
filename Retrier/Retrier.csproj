@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>ezretrier</PackageId>
+        <Title>Retrier</Title>
+        <Authors>Emanuel Zhupa</Authors>
+        <Description>Simple Retrier for .Net</Description>
+        <RepositoryUrl>https://github.com/ezhupa99/DotNetRetrier</RepositoryUrl>
+        <PackageTags>retry</PackageTags>
+    </PropertyGroup>
+
+</Project>
