@@ -15,6 +15,7 @@
         <TargetFrameworks>net5.0;net6.0</TargetFrameworks>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
 </Project>
