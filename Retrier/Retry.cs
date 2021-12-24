@@ -1,4 +1,4 @@
-﻿namespace Retrier;
+﻿namespace EZ.Retrier;
 
 public static class Retry
 {
@@ -17,7 +17,8 @@ public static class Retry
     {
         try
         {
-            if (numberOfRetries == 0) throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
+            if (numberOfRetries == 0)
+                throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
 
             return await method();
         }
@@ -84,7 +85,8 @@ public static class Retry
     {
         try
         {
-            if (numberOfRetries == 0) throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
+            if (numberOfRetries == 0)
+                throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
 
             return await method(param, param1);
         }
@@ -121,7 +123,8 @@ public static class Retry
     {
         try
         {
-            if (numberOfRetries == 0) throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
+            if (numberOfRetries == 0)
+                throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
 
             return await method(param, param1, param2);
         }
@@ -160,7 +163,8 @@ public static class Retry
     {
         try
         {
-            if (numberOfRetries == 0) throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
+            if (numberOfRetries == 0)
+                throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
 
             return await method(param, param1, param2, param3);
         }
@@ -191,7 +195,8 @@ public static class Retry
     {
         try
         {
-            if (numberOfRetries == 0) throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
+            if (numberOfRetries == 0)
+                throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
 
             return method();
         }
@@ -224,7 +229,8 @@ public static class Retry
     {
         try
         {
-            if (numberOfRetries == 0) throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
+            if (numberOfRetries == 0)
+                throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
 
             return method(param);
         }
@@ -259,7 +265,8 @@ public static class Retry
     {
         try
         {
-            if (numberOfRetries == 0) throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
+            if (numberOfRetries == 0)
+                throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
 
             return method(param, param1);
         }
@@ -296,7 +303,8 @@ public static class Retry
     {
         try
         {
-            if (numberOfRetries == 0) throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
+            if (numberOfRetries == 0)
+                throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
 
             return method(param, param1, param2);
         }
@@ -335,7 +343,8 @@ public static class Retry
     {
         try
         {
-            if (numberOfRetries == 0) throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
+            if (numberOfRetries == 0)
+                throw new RetryException($"Retry failed all the times for method {method.Method.Name}.");
 
             return method(param, param1, param2, param3);
         }
