@@ -1,4 +1,4 @@
-﻿namespace Retrier;
+﻿namespace EZ.Retrier;
 
 public class RetryException : Exception
 {
